@@ -1,0 +1,14 @@
+Requisitos:
+1. GitHub (Cuenta gratuita).
+2. Amazon AWS (Cuenta sandbox).
+
+Reto Técnico:
+1. Crear una EC2 AMI con ayuda de Packer y desplegar la AMI creada en una nueva instancia EC2 con ayuda de Terraform.
+2. Se debe usar Ubuntu 22.04 como SO y este debe ser aprovisionado con Ansible con ayuda de Packer.
+3. La AMI debe tener instalada el servidor web Apache y debe tener una página por defecto que diga "Hola Mundo".
+4. Desplegar la AMI en una nueva instancia EC2 con ayuda de Terraform.
+5. Se debe tener todo el proceso de forma automatizada en script de Linux Bash o procesos Makefiles.
+
+Entregables
+1. Repositorio que contenga todo el código generado: archivo de packer, archivos de ansible, infraestructura como código y automatización.
+2. La fecha de entrega debe ser en 3 días laborales.
